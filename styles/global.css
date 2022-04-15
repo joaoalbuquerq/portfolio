@@ -34,10 +34,17 @@ img{
     max-width: 4ch;
 }
 
+.texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    margin-bottom: 60px;
+    max-width: 50ch;
+}
+
 @media(max-width: 800px){
     .subtitulo{
         font-size: 4rem;
         text-transform: capitalize;
-        max-width: initial;
+        max-width: initial !important;
     }
 }
