@@ -43,8 +43,14 @@
 
 @media(max-width: 800px){
     .introducao{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 40px;
+        text-align: center;
+    }
+
+    .introducao img{
+        max-width: 50%;
+        margin: 0 auto;
     }
 
     .introducao h1{
@@ -54,7 +60,7 @@
     .introducao h1::before{
         width: 30px;
         height: 10px;
-        left: 0px;
+        left: 345px;
     }
     
 }
