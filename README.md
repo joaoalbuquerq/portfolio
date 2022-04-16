@@ -1,4 +1,4 @@
-# Wildbeast 🐺
+# João Albuquerque - Portfólio 🐺
 <p align="center">
 <img src="https://i.imgur.com/Got9cY4.png" alt="Wildbeast" title="Wildbeast">
 </p>
