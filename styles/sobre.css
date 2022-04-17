@@ -1,0 +1,25 @@
+.sobre-container{
+    max-width: 1200px;
+    padding: 100px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.sobre .subtitulo{
+    max-width: 6ch;
+    color: #363636;
+}
+
+.sobre-texto{
+    font-size: 1.225rem;
+}
+
+@media(max-width: 800px){
+    .sobre-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
