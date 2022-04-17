@@ -23,11 +23,27 @@
     text-decoration: none;
     color: #141414;
     display: block;
+    position: relative;
 }
 
-.header-menu a:hover{
-    border-bottom: 1px solid #370C80;
-    color: #370C80;
+.header-titulo:hover{
+    color: #67dd0a;
+    transition: .3s;
+}
+
+.header-menu a::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: #67dd0a;
+    margin-top: 4px;
+    transition: .3s;
+    position: absolute;
+}
+
+.header-menu a:hover::after{
+    width: 100%;
 }
 
 @media(max-width: 800px){
@@ -35,5 +51,9 @@
         flex-direction: column;
         gap: 30px;
         padding: 20px;
+    }
+
+    .header-menu a::after{
+        display: none;
     }
 }
