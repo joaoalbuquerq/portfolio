@@ -5,5 +5,10 @@
 @import './formacao.css';
 @import './contato.css';
 @import './sobre.css';
+@import './projetos.css';
+
+html{
+    scroll-behavior: smooth;
+}
 
 
